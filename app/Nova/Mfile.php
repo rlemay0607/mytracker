@@ -32,6 +32,11 @@ class Mfile extends Resource
 
     public static $title = 'name';
 
+    public function subtitle()
+    {
+        return "Version: {$this->version}";
+    }
+
     /**
      * Get the displayble label of the resource.
      *
