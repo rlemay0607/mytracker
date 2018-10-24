@@ -65,18 +65,13 @@
         "sort-packages": true,
         "optimize-autoloader": true
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://nova.laravel.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "repositories": {
         "laravel/nova": {
             "type": "path",
             "url": "./nova"
         }
     }
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+
 }
