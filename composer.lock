@@ -4,191 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b32e2dee0521a8975d97efa937336381",
+    "content-hash": "0b482fe55c9eb8aa6037ef286688c35c",
     "packages": [
         {
-            "name": "arcanedev/log-viewer",
-            "version": "4.6.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ARCANEDEV/LogViewer.git",
-                "reference": "ec59381bbf0563a775ca9202313042f5cb5ce29a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ARCANEDEV/LogViewer/zipball/ec59381bbf0563a775ca9202313042f5cb5ce29a",
-                "reference": "ec59381bbf0563a775ca9202313042f5cb5ce29a",
-                "shasum": ""
-            },
-            "require": {
-                "arcanedev/support": "~4.4.0",
-                "php": ">=7.1.3",
-                "psr/log": "~1.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "~1.0",
-                "orchestra/testbench": "~3.7.0",
-                "phpunit/phpcov": "~5.0",
-                "phpunit/phpunit": "~7.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Arcanedev\\LogViewer\\LogViewerServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Arcanedev\\LogViewer\\": "src/"
-                },
-                "files": [
-                    "constants.php",
-                    "helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "ARCANEDEV",
-                    "email": "arcanedev.maroc@gmail.com",
-                    "homepage": "https://github.com/arcanedev-maroc",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Provides a Log Viewer for Laravel 5",
-            "homepage": "https://github.com/ARCANEDEV/LogViewer",
-            "keywords": [
-                "arcanedev",
-                "arcanesoft",
-                "laravel",
-                "log",
-                "log viewer",
-                "log-viewer",
-                "logviewer"
-            ],
-            "time": "2018-10-16T08:59:43+00:00"
-        },
-        {
-            "name": "arcanedev/support",
-            "version": "4.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ARCANEDEV/Support.git",
-                "reference": "9f4d9947563c6bec10ea7fa7954129e012216af9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ARCANEDEV/Support/zipball/9f4d9947563c6bec10ea7fa7954129e012216af9",
-                "reference": "9f4d9947563c6bec10ea7fa7954129e012216af9",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/filesystem": "~5.7.0",
-                "illuminate/support": "~5.7.0",
-                "php": ">=7.1.3"
-            },
-            "require-dev": {
-                "orchestra/testbench": "~3.7.0",
-                "phpunit/phpcov": "~5.0",
-                "phpunit/phpunit": "~7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Arcanedev\\Support\\": "src/"
-                },
-                "files": [
-                    "constants.php",
-                    "helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "ARCANEDEV",
-                    "email": "arcanedev.maroc@gmail.com",
-                    "homepage": "https://github.com/arcanedev-maroc"
-                }
-            ],
-            "description": "ARCANEDEV Support Helpers",
-            "homepage": "https://github.com/ARCANEDEV/Support",
-            "keywords": [
-                "arcanedev",
-                "arcanesoft",
-                "laravel",
-                "support"
-            ],
-            "time": "2018-09-04T17:19:43+00:00"
-        },
-        {
-            "name": "benjaminhirsch/nova-slug-field",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/benjaminhirsch/nova-slug-field.git",
-                "reference": "592fe6940758334b911fc6bdc191026ab0d6a2ba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/benjaminhirsch/nova-slug-field/zipball/592fe6940758334b911fc6bdc191026ab0d6a2ba",
-                "reference": "592fe6940758334b911fc6bdc191026ab0d6a2ba",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Benjaminhirsch\\NovaSlugField\\FieldServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Benjaminhirsch\\NovaSlugField\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Benjamin Hirsch",
-                    "email": "mail@benjaminhirsch.net",
-                    "homepage": "https://wwwbenjaminhirsch.net",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A Laravel Nova field to generate a slugs.",
-            "keywords": [
-                "laravel",
-                "nova"
-            ],
-            "time": "2018-10-10T18:18:24+00:00"
-        },
-        {
             "name": "cakephp/chronos",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/chronos.git",
-                "reference": "30f5b26bcf76a5e53ecc274700ad1ec49dc05567"
+                "reference": "395110125ff577f080fa064dca5c5608a4e77ee1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/chronos/zipball/30f5b26bcf76a5e53ecc274700ad1ec49dc05567",
-                "reference": "30f5b26bcf76a5e53ecc274700ad1ec49dc05567",
+                "url": "https://api.github.com/repos/cakephp/chronos/zipball/395110125ff577f080fa064dca5c5608a4e77ee1",
+                "reference": "395110125ff577f080fa064dca5c5608a4e77ee1",
                 "shasum": ""
             },
             "require": {
@@ -232,125 +61,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-07-11T18:51:56+00:00"
-        },
-        {
-            "name": "cendekia/nova-setting-tool",
-            "version": "v0.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cendekia/nova-setting-tool.git",
-                "reference": "e735c5fa369f5b746e0b9285320ace4b97d89cb0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cendekia/nova-setting-tool/zipball/e735c5fa369f5b746e0b9285320ace4b97d89cb0",
-                "reference": "e735c5fa369f5b746e0b9285320ace4b97d89cb0",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/dbal": "^2.8",
-                "php": ">=7.1.0",
-                "unisharp/laravel-settings": "^2.0"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^3.6",
-                "phpunit/phpunit": "7.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Cendekia\\SettingTool\\ToolServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Cendekia\\SettingTool\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cendekia Pramana Putra",
-                    "email": "me@cendekiapp.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "An app setting manager tool for laravel nova",
-            "homepage": "https://github.com/cendekia/nova-setting-tool",
-            "keywords": [
-                "laravel",
-                "nova",
-                "setting",
-                "tool"
-            ],
-            "time": "2018-10-01T10:51:12+00:00"
-        },
-        {
-            "name": "cloudstudio/resource-generator",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cloudstudio/resource-generator.git",
-                "reference": "311546f33923aaedc3d0da52bfd73c7102704815"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cloudstudio/resource-generator/zipball/311546f33923aaedc3d0da52bfd73c7102704815",
-                "reference": "311546f33923aaedc3d0da52bfd73c7102704815",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/dbal": "^2.8",
-                "laravel/nova": "*",
-                "php": ">=7.1.0"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^3.6",
-                "phpunit/phpunit": "7.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Cloudstudio\\ResourceGenerator\\ResourceGeneratorServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Cloudstudio\\ResourceGenerator\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Eric Lagarda",
-                    "email": "eric@infinety.es",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Toni Soriano",
-                    "email": "info@cloudstudio.es",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Resource Generator for Laravel Nova",
-            "keywords": [
-                "generator",
-                "laravel",
-                "nova",
-                "resource"
-            ],
-            "time": "2018-10-05T12:06:27+00:00"
+            "time": "2018-10-18T22:02:21+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -384,234 +95,6 @@
             ],
             "description": "implementation of xdg base directory specification for php",
             "time": "2014-10-24T07:27:01+00:00"
-        },
-        {
-            "name": "doctrine/cache",
-            "version": "v1.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/cache.git",
-                "reference": "d768d58baee9a4862ca783840eca1b9add7a7f57"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/d768d58baee9a4862ca783840eca1b9add7a7f57",
-                "reference": "d768d58baee9a4862ca783840eca1b9add7a7f57",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~7.1"
-            },
-            "conflict": {
-                "doctrine/common": ">2.2,<2.4"
-            },
-            "require-dev": {
-                "alcaeus/mongo-php-adapter": "^1.1",
-                "doctrine/coding-standard": "^4.0",
-                "mongodb/mongodb": "^1.1",
-                "phpunit/phpunit": "^7.0",
-                "predis/predis": "~1.0"
-            },
-            "suggest": {
-                "alcaeus/mongo-php-adapter": "Required to use legacy MongoDB driver"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.8.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
-                },
-                {
-                    "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
-                },
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
-                },
-                {
-                    "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
-                }
-            ],
-            "description": "Caching library offering an object-oriented API for many cache backends",
-            "homepage": "https://www.doctrine-project.org",
-            "keywords": [
-                "cache",
-                "caching"
-            ],
-            "time": "2018-08-21T18:01:43+00:00"
-        },
-        {
-            "name": "doctrine/dbal",
-            "version": "v2.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/dbal.git",
-                "reference": "5140a64c08b4b607b9bedaae0cedd26f04a0e621"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/5140a64c08b4b607b9bedaae0cedd26f04a0e621",
-                "reference": "5140a64c08b4b607b9bedaae0cedd26f04a0e621",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/cache": "^1.0",
-                "doctrine/event-manager": "^1.0",
-                "ext-pdo": "*",
-                "php": "^7.1"
-            },
-            "require-dev": {
-                "doctrine/coding-standard": "^4.0",
-                "jetbrains/phpstorm-stubs": "^2018.1.2",
-                "phpstan/phpstan": "^0.10.1",
-                "phpunit/phpunit": "^7.1.2",
-                "phpunit/phpunit-mock-objects": "!=3.2.4,!=3.2.5",
-                "symfony/console": "^2.0.5|^3.0|^4.0",
-                "symfony/phpunit-bridge": "^3.4.5|^4.0.5"
-            },
-            "suggest": {
-                "symfony/console": "For helpful console commands such as SQL execution and import of files."
-            },
-            "bin": [
-                "bin/doctrine-dbal"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.8.x-dev",
-                    "dev-develop": "3.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Doctrine\\DBAL\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
-                },
-                {
-                    "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
-                },
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
-                }
-            ],
-            "description": "Database Abstraction Layer",
-            "homepage": "http://www.doctrine-project.org",
-            "keywords": [
-                "database",
-                "dbal",
-                "persistence",
-                "queryobject"
-            ],
-            "time": "2018-07-13T03:16:35+00:00"
-        },
-        {
-            "name": "doctrine/event-manager",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/event-manager.git",
-                "reference": "a520bc093a0170feeb6b14e9d83f3a14452e64b3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/event-manager/zipball/a520bc093a0170feeb6b14e9d83f3a14452e64b3",
-                "reference": "a520bc093a0170feeb6b14e9d83f3a14452e64b3",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1"
-            },
-            "conflict": {
-                "doctrine/common": "<2.9@dev"
-            },
-            "require-dev": {
-                "doctrine/coding-standard": "^4.0",
-                "phpunit/phpunit": "^7.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Doctrine\\Common\\": "lib/Doctrine/Common"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
-                },
-                {
-                    "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
-                },
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
-                },
-                {
-                    "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
-                },
-                {
-                    "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com"
-                }
-            ],
-            "description": "Doctrine Event Manager component",
-            "homepage": "https://www.doctrine-project.org/projects/event-manager.html",
-            "keywords": [
-                "event",
-                "eventdispatcher",
-                "eventmanager"
-            ],
-            "time": "2018-06-11T11:59:03+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -941,56 +424,6 @@
             "time": "2018-02-07T20:20:57+00:00"
         },
         {
-            "name": "gregoriohc/laravel-nova-theme-responsive",
-            "version": "v0.6.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/gregoriohc/laravel-nova-theme-responsive.git",
-                "reference": "ab63cf05ee89ef436ecd4134edb16546b1663833"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/gregoriohc/laravel-nova-theme-responsive/zipball/ab63cf05ee89ef436ecd4134edb16546b1663833",
-                "reference": "ab63cf05ee89ef436ecd4134edb16546b1663833",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Gregoriohc\\LaravelNovaThemeResponsive\\ThemeServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Gregoriohc\\LaravelNovaThemeResponsive\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Gregorio Hernández Caso",
-                    "email": "gregoriohc@gmail.com",
-                    "homepage": "https://github.com/gregoriohc",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A Laravel Nova responsive theme.",
-            "homepage": "https://github.com/gregoriohc/laravel-nova-theme-responsive",
-            "keywords": [
-                "laravel",
-                "nova"
-            ],
-            "time": "2018-09-28T08:42:07+00:00"
-        },
-        {
             "name": "jakub-onderka/php-console-color",
             "version": "v0.2",
             "source": {
@@ -1077,119 +510,17 @@
             "time": "2015-04-20T18:58:01+00:00"
         },
         {
-            "name": "kabbouchi/nova-impersonate",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/KABBOUCHI/nova-impersonate.git",
-                "reference": "d4a15aa39d39876583db51dd3e769b8598b862a6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/KABBOUCHI/nova-impersonate/zipball/d4a15aa39d39876583db51dd3e769b8598b862a6",
-                "reference": "d4a15aa39d39876583db51dd3e769b8598b862a6",
-                "shasum": ""
-            },
-            "require": {
-                "lab404/laravel-impersonate": "^1.2",
-                "php": ">=7.1.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "KABBOUCHI\\NovaImpersonate\\ToolServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "KABBOUCHI\\NovaImpersonate\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "A Laravel Nova field allows you to authenticate as your users.",
-            "keywords": [
-                "laravel",
-                "nova"
-            ],
-            "time": "2018-09-26 06:50:20"
-        },
-        {
-            "name": "lab404/laravel-impersonate",
-            "version": "1.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/404labfr/laravel-impersonate.git",
-                "reference": "16b7204f9efde1275897a9d58931f9e6d1be36f5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/404labfr/laravel-impersonate/zipball/16b7204f9efde1275897a9d58931f9e6d1be36f5",
-                "reference": "16b7204f9efde1275897a9d58931f9e6d1be36f5",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": ">=5.5",
-                "php": ">=7.0"
-            },
-            "require-dev": {
-                "orchestra/database": "~3.4.0",
-                "orchestra/testbench": "~3.4.0",
-                "phpunit/phpunit": "^5.7"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Lab404\\Impersonate\\ImpersonateServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Lab404\\Impersonate\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "404lab",
-                    "email": "web@404lab.fr"
-                }
-            ],
-            "description": "Laravel Impersonate is a plugin that allows to you to authenticate as your users.",
-            "keywords": [
-                "auth",
-                "impersonate",
-                "impersonation",
-                "laravel",
-                "laravel-package",
-                "laravel-plugin",
-                "package",
-                "plugin",
-                "user"
-            ],
-            "time": "2018-09-03T13:05:19+00:00"
-        },
-        {
             "name": "laravel/framework",
-            "version": "v5.7.9",
+            "version": "v5.7.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "172f69f86bb86e107fb9fafff293b4b01291cf05"
+                "reference": "52ee19c53c4fcd7fea8a83aacae5b8bc212ae19b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/172f69f86bb86e107fb9fafff293b4b01291cf05",
-                "reference": "172f69f86bb86e107fb9fafff293b4b01291cf05",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/52ee19c53c4fcd7fea8a83aacae5b8bc212ae19b",
+                "reference": "52ee19c53c4fcd7fea8a83aacae5b8bc212ae19b",
                 "shasum": ""
             },
             "require": {
@@ -1271,6 +602,7 @@
                 "doctrine/dbal": "Required to rename columns and drop SQLite columns (^2.6).",
                 "ext-pcntl": "Required to use all features of the queue worker.",
                 "ext-posix": "Required to use all features of the queue worker.",
+                "filp/whoops": "Required for friendly error pages in development (^2.1.4).",
                 "fzaninotto/faker": "Required to use the eloquent factory builder (^1.4).",
                 "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (^6.0).",
                 "laravel/tinker": "Required to use the tinker console command (^1.0).",
@@ -1318,21 +650,16 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-10-09T13:28:28+00:00"
+            "time": "2018-10-24T12:50:20+00:00"
         },
         {
             "name": "laravel/nova",
-            "version": "v1.1.4",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:laravel/nova.git",
-                "reference": "78b0202f76c839b9946198ad933b4f44773d52ec"
-            },
+            "version": "dev-master",
             "dist": {
-                "type": "zip",
-                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-78b0202f76c839b9946198ad933b4f44773d52ec-zip-f564ae.zip",
-                "reference": "78b0202f76c839b9946198ad933b4f44773d52ec",
-                "shasum": "a2425621bb2da5b9c19b0173518d2463f56f865d"
+                "type": "path",
+                "url": "./nova",
+                "reference": "6b34fd3882e3cff2dc99d288393e92025bc93094",
+                "shasum": null
             },
             "require": {
                 "cakephp/chronos": "~1.0",
@@ -1386,8 +713,7 @@
             "keywords": [
                 "admin",
                 "laravel"
-            ],
-            "time": "2018-10-01T13:35:37+00:00"
+            ]
         },
         {
             "name": "laravel/tinker",
@@ -1719,42 +1045,6 @@
             "time": "2018-09-20T19:36:25+00:00"
         },
         {
-            "name": "nightkit/nova-element-ui",
-            "version": "0.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fat4lix/nova-element-ui.git",
-                "reference": "c75bacf37efd75953c2ed70881d83ad656642dab"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fat4lix/nova-element-ui/zipball/c75bacf37efd75953c2ed70881d83ad656642dab",
-                "reference": "c75bacf37efd75953c2ed70881d83ad656642dab",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/nova": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "NightKit\\NovaElements\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ilya Glinsky",
-                    "email": "fat4lix@gmail.com"
-                }
-            ],
-            "description": "Element UI components for Laravel Nova",
-            "time": "2018-08-30T01:08:15+00:00"
-        },
-        {
             "name": "nikic/php-parser",
             "version": "v4.1.0",
             "source": {
@@ -1910,113 +1200,6 @@
                 "random"
             ],
             "time": "2018-07-02T15:55:56+00:00"
-        },
-        {
-            "name": "php-junior/nova-logs",
-            "version": "v1.0.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PHPJunior/nova-logs.git",
-                "reference": "b8376d58408b16777b7dd5e38fef68ca1b933a67"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PHPJunior/nova-logs/zipball/b8376d58408b16777b7dd5e38fef68ca1b933a67",
-                "reference": "b8376d58408b16777b7dd5e38fef68ca1b933a67",
-                "shasum": ""
-            },
-            "require": {
-                "arcanedev/log-viewer": "*",
-                "php": "^7.1.3"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^3.6",
-                "phpunit/phpunit": "7.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "PhpJunior\\NovaLogViewer\\ToolServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PhpJunior\\NovaLogViewer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nyi Nyi Lwin",
-                    "email": "nyinyilwin1992@hotmail.com"
-                }
-            ],
-            "description": "Provides a Log Viewer for Laravel Nova",
-            "keywords": [
-                "laravel",
-                "nova"
-            ],
-            "time": "2018-09-02T01:00:45+00:00"
-        },
-        {
-            "name": "pragmarx/artisan-tool",
-            "version": "v0.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/antonioribeiro/artisan-tool.git",
-                "reference": "0820bcc21dbcfae0878fbe15731a604b55e7dfb0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/antonioribeiro/artisan-tool/zipball/0820bcc21dbcfae0878fbe15731a604b55e7dfb0",
-                "reference": "0820bcc21dbcfae0878fbe15731a604b55e7dfb0",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/nova": "*",
-                "php": ">=7.1.0",
-                "sensiolabs/ansi-to-html": "~1"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^3.6",
-                "phpunit/phpunit": "7.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "PragmaRX\\ArtisanTool\\ToolServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PragmaRX\\ArtisanTool\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Antonio Carlos Ribeiro",
-                    "email": "acr@antoniocarlosribeiro.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Brings Artisan to Nova",
-            "homepage": "https://github.com/pragmarx/artisan-tool",
-            "keywords": [
-                "laravel",
-                "nova"
-            ],
-            "time": "2018-09-16T21:47:30+00:00"
         },
         {
             "name": "psr/container",
@@ -2317,214 +1500,6 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
-        },
-        {
-            "name": "sensiolabs/ansi-to-html",
-            "version": "v1.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sensiolabs/ansi-to-html.git",
-                "reference": "8b5d787dca714bd98dd770c078d76528320a8286"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/ansi-to-html/zipball/8b5d787dca714bd98dd770c078d76528320a8286",
-                "reference": "8b5d787dca714bd98dd770c078d76528320a8286",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "suggest": {
-                "twig/twig": "Provides nice templating features"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "SensioLabs\\AnsiConverter": "."
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                }
-            ],
-            "description": "A library to convert a text with ANSI codes to HTML",
-            "time": "2017-05-02T00:53:29+00:00"
-        },
-        {
-            "name": "silvanite/brandenburg",
-            "version": "1.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Silvanite/brandenburg.git",
-                "reference": "cc115bbb4d4da9f700baf196faef1a02fcbabf53"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Silvanite/brandenburg/zipball/cc115bbb4d4da9f700baf196faef1a02fcbabf53",
-                "reference": "cc115bbb4d4da9f700baf196faef1a02fcbabf53",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": ">=5.0.0",
-                "php": ">=7.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.1",
-                "orchestra/testbench": "^3.7",
-                "phpunit/phpunit": "^7.0",
-                "squizlabs/php_codesniffer": "^3.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Silvanite\\Brandenburg\\Providers\\BrandenburgServiceProvider"
-                    ],
-                    "aliases": {
-                        "BrandenburgPolicy": "Silvanite\\Brandenburg\\Facades\\PolicyFacade"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Silvanite\\Brandenburg\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Marco Mark (m2de)",
-                    "email": "marco@silvanite.com"
-                }
-            ],
-            "description": "Laravel Authentication Package",
-            "time": "2018-09-29T15:05:49+00:00"
-        },
-        {
-            "name": "silvanite/novafieldcheckboxes",
-            "version": "v1.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Silvanite/novafieldcheckboxes.git",
-                "reference": "58efbb32c7b52092cfdb86a737f25aef3c4d93d9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Silvanite/novafieldcheckboxes/zipball/58efbb32c7b52092cfdb86a737f25aef3c4d93d9",
-                "reference": "58efbb32c7b52092cfdb86a737f25aef3c4d93d9",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Silvanite\\NovaFieldCheckboxes\\FieldServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Silvanite\\NovaFieldCheckboxes\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "A Laravel Nova field to display a number of multi-select options using checkboxes.",
-            "keywords": [
-                "checkbox",
-                "checkboxes",
-                "field",
-                "input",
-                "laravel",
-                "multiple choice",
-                "multiselect",
-                "nova"
-            ],
-            "time": "2018-10-01T14:56:21+00:00"
-        },
-        {
-            "name": "silvanite/novatoolpermissions",
-            "version": "v1.0.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Silvanite/novatoolpermissions.git",
-                "reference": "dc529528d25ecfdf16cc1a51a4a29fad2d7317b0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Silvanite/novatoolpermissions/zipball/dc529528d25ecfdf16cc1a51a4a29fad2d7317b0",
-                "reference": "dc529528d25ecfdf16cc1a51a4a29fad2d7317b0",
-                "shasum": ""
-            },
-            "require": {
-                "benjaminhirsch/nova-slug-field": "^1.0",
-                "laravel/framework": ">=5.6.0",
-                "php": ">=7.1.3",
-                "silvanite/brandenburg": "^1.0",
-                "silvanite/novafieldcheckboxes": "^1.0"
-            },
-            "require-dev": {
-                "squizlabs/php_codesniffer": ">=3.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Silvanite\\NovaToolPermissions\\Providers\\AuthServiceProvider",
-                        "Silvanite\\NovaToolPermissions\\Providers\\PackageServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Silvanite\\NovaToolPermissions\\": "src-php/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marco Mark",
-                    "email": "m2de@outlook.com"
-                }
-            ],
-            "description": "Laravel Nova Permissions (Roles and Permission based Access Control (ACL))",
-            "keywords": [
-                "Authentication",
-                "access control",
-                "acl",
-                "authorization",
-                "gates",
-                "laravel",
-                "nova",
-                "permissions",
-                "policies",
-                "roles",
-                "tool"
-            ],
-            "time": "2018-09-25T09:57:22+00:00"
         },
         {
             "name": "spatie/once",
@@ -3558,72 +2533,6 @@
             "time": "2017-11-27T11:13:29+00:00"
         },
         {
-            "name": "unisharp/laravel-settings",
-            "version": "2.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/UniSharp/laravel-settings.git",
-                "reference": "e5289be6411d00d9b09f349c469de5ca582e0de9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/UniSharp/laravel-settings/zipball/e5289be6411d00d9b09f349c469de5ca582e0de9",
-                "reference": "e5289be6411d00d9b09f349c469de5ca582e0de9",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/cache": ">=5.0.0",
-                "illuminate/database": ">=5.0.0",
-                "illuminate/support": ">=5.0.0",
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "codedungeon/phpunit-result-printer": "^0.5.3",
-                "mockery/mockery": "^0.9.9",
-                "phpunit/php-code-coverage": "^5.2",
-                "phpunit/phpunit": "^6.1",
-                "squizlabs/php_codesniffer": "^3.2"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Unisharp\\Setting\\SettingServiceProvider"
-                    ],
-                    "aliases": {
-                        "Setting": "Unisharp\\Setting\\SettingFacade"
-                    }
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "database"
-                ],
-                "psr-4": {
-                    "Unisharp\\Setting\\": "src/Setting/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "UniSharp Ltd.",
-                    "email": "service@unisharp.com"
-                }
-            ],
-            "description": "Persistent settings manager for laravel, translations are supported.",
-            "keywords": [
-                "Settings",
-                "key-value",
-                "laravel",
-                "persistent",
-                "storage"
-            ],
-            "time": "2018-01-29T09:02:03+00:00"
-        },
-        {
             "name": "vlucas/phpdotenv",
             "version": "v2.5.1",
             "source": {
@@ -3792,16 +2701,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.2.1",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "e79cd403fb77fc8963a99ecc30e80ddd885b3311"
+                "reference": "bc0fd11bc455cc20ee4b5edabc63ebbf859324c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/e79cd403fb77fc8963a99ecc30e80ddd885b3311",
-                "reference": "e79cd403fb77fc8963a99ecc30e80ddd885b3311",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/bc0fd11bc455cc20ee4b5edabc63ebbf859324c7",
+                "reference": "bc0fd11bc455cc20ee4b5edabc63ebbf859324c7",
                 "shasum": ""
             },
             "require": {
@@ -3849,7 +2758,7 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2018-06-30T13:14:06+00:00"
+            "time": "2018-10-23T09:00:00+00:00"
         },
         {
             "name": "fzaninotto/faker",
@@ -4444,16 +3353,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "6.1.0",
+            "version": "6.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "0685fb6a43aed1b2e09804d1aaf17144c82861f8"
+                "reference": "4d3ae9b21a7d7e440bd0cf65565533117976859f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/0685fb6a43aed1b2e09804d1aaf17144c82861f8",
-                "reference": "0685fb6a43aed1b2e09804d1aaf17144c82861f8",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/4d3ae9b21a7d7e440bd0cf65565533117976859f",
+                "reference": "4d3ae9b21a7d7e440bd0cf65565533117976859f",
                 "shasum": ""
             },
             "require": {
@@ -4464,7 +3373,7 @@
                 "phpunit/php-text-template": "^1.2.1",
                 "phpunit/php-token-stream": "^3.0",
                 "sebastian/code-unit-reverse-lookup": "^1.0.1",
-                "sebastian/environment": "^3.1",
+                "sebastian/environment": "^3.1 || ^4.0",
                 "sebastian/version": "^2.0.1",
                 "theseer/tokenizer": "^1.1"
             },
@@ -4503,7 +3412,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-10-16T05:37:37+00:00"
+            "time": "2018-10-23T05:59:32+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -4696,16 +3605,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.4.0",
+            "version": "7.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "f3837fa1e07758057ae06e8ddec6d06ba183f126"
+                "reference": "c151651fb6ed264038d486ea262e243af72e5e64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f3837fa1e07758057ae06e8ddec6d06ba183f126",
-                "reference": "f3837fa1e07758057ae06e8ddec6d06ba183f126",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c151651fb6ed264038d486ea262e243af72e5e64",
+                "reference": "c151651fb6ed264038d486ea262e243af72e5e64",
                 "shasum": ""
             },
             "require": {
@@ -4726,7 +3635,7 @@
                 "phpunit/php-timer": "^2.0",
                 "sebastian/comparator": "^3.0",
                 "sebastian/diff": "^3.0",
-                "sebastian/environment": "^3.1",
+                "sebastian/environment": "^3.1 || ^4.0",
                 "sebastian/exporter": "^3.1",
                 "sebastian/global-state": "^2.0",
                 "sebastian/object-enumerator": "^3.0.3",
@@ -4776,7 +3685,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-10-05T04:05:24+00:00"
+            "time": "2018-10-23T05:57:41+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -5434,9 +4343,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "kabbouchi/nova-impersonate": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
