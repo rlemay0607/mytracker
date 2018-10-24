@@ -1329,8 +1329,8 @@
                 "reference": "78b0202f76c839b9946198ad933b4f44773d52ec"
             },
             "dist": {
-                "type": "zip",
-                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-78b0202f76c839b9946198ad933b4f44773d52ec-zip-f564ae.zip",
+                "type": "path",
+                "url": "./nova",
                 "reference": "78b0202f76c839b9946198ad933b4f44773d52ec",
                 "shasum": "a2425621bb2da5b9c19b0173518d2463f56f865d"
             },
