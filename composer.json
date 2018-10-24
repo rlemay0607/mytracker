@@ -59,7 +59,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "./nova"
+            "url": "./Nova"
         }
     ],
     "minimum-stability": "dev",
